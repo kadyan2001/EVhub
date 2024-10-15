@@ -74,11 +74,11 @@
         display: flex;
     }
     .nav_wrapper{
-        border-top: 2px solid var(--primary-color );
+        border-bottom: 2px solid var(--primary-color );
 
     }
     .nav_wrapper ul{ 
-        position: absolute;
+        position:absolute;
         top: 100%;
         left: 0;
         width: 100%;
