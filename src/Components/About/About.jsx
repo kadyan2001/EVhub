@@ -1,9 +1,11 @@
 import React from "react";
 
+import aboutCSS from './../About/About.module.css'
+
 function About() {
 
     return(
-        <div></div>
+        <div className={aboutCSS.About_wrapper}></div>
 
     )
     
