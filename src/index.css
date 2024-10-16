@@ -17,6 +17,10 @@
   --primary-color: #96e64c;
 }
 
+body{
+  background:#000;
+}
+
 button{
   height: 45px;
   width: 150px;

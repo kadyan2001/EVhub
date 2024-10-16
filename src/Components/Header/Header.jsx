@@ -1,9 +1,9 @@
 import React from 'react'
 import headerCSS from './Header.module.css'
 
-import client1 from './../../assets/user1.jpg'
-import client2 from './../../assets/user2.jpg'
-import client3 from './../../assets/user3.jpg'
+import client1 from './../../assets/user-01.jpg'
+import client2 from './../../assets/user-02.jpg'
+import client3 from './../../assets/user-03.jpg'
 
 
 

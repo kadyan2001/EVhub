@@ -1,8 +1,9 @@
 .Header_wrapper{
-    background:url(./../../assets/homebg1.jpeg);
+    background:url(./../../assets/header-img.jpg);
     background-size:cover;
     min-height: 100vh;
     width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     position:relative;
 }
