@@ -3,6 +3,7 @@ import React from "react";
 import aboutCSS from './../About/About.module.css'
 
 import client from './../../assets/about-img-.jpg'
+import client1 from './../../assets/about-img-1.jpg'
 
 import card1 from './../../assets/about-card01.png'
 import card2 from './../../assets/about-card02.png'
@@ -22,7 +23,9 @@ function About() {
 
                 <div className={aboutCSS.about}>
                     <div className={aboutCSS.about_img}>
-                        <img src={client} alt="" />
+                        <img src={client} alt="about-img" />
+                        <img src={client1} alt="about-img" />
+
                     </div>
 
                     <div className={aboutCSS.about_content}>

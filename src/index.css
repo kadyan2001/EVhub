@@ -52,3 +52,8 @@ button:active{
   padding: 100px 12%;
   width: 100%;
 }
+
+.section_title{
+  font-size: 14px;
+  color: #96e64c;
+}

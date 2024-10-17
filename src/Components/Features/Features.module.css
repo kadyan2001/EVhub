@@ -1,0 +1,122 @@
+.Feature_wrapper{
+    color: #fff;
+}
+
+.Feature_wrapper h2{
+    font-size: 36px;
+}
+
+.Feature_wrapper h2 span{
+    color: var(--primary-color);
+}
+
+.Feature_wrapper p{
+    color: rgba(131,131,131,0.8);
+    width: 100%;
+}
+
+.feature_Cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.feature_Cards .featureCard{
+    width: 50%;
+    position: relative;
+}
+
+.feature_Cards .featureCard i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 40px;
+    padding: 20px 21px;
+    background-color: #5bb902;
+    border-radius: 50%;
+}
+.feature_Cards .featureCard img{
+    width: 100%;
+    height: 120%;
+    border-radius: 12px;
+
+}
+
+.feature_Cards .featureCard:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cardContainer{
+    width: 50%;
+    padding:10px;
+    background:linear-gradient(0deg , #5bb902 , transparent);
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cardContainer h3{
+    font-size: 15px;
+}
+.cardContainer p{
+    font-size: 15px;
+    width: 100%;
+}
+
+
+
+.cardContainer::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -0.9%;
+    left: 0.5%;
+    background-color: #000;
+    height: 99%;
+    width: 99%;
+    border-radius: 8px;
+    border: 1px solid rgba(131, 131, 131, 0.2);
+
+}
+
+@media screen and (max-width:1600px) {
+    .feature_Cards .featureCard{
+        width: 40%;
+
+    }
+    .feature_Cards .featureCard:nth-of-type(2){
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .feature_Cards{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .feature_Cards .featureCard{
+        width: 100%;
+    }
+
+    .feature_Cards .featureCard:nth-of-type(2){
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .feature_Cards .featureCard:nth-of-type(2){
+        flex-direction: column;
+        left: 100px;
+    }
+}
+
+
