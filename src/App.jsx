@@ -6,6 +6,8 @@ import About from './Components/About/About'
 import Services from './Components/Services/Services'
 import Features from './Components/Features/Features'
 import Testimonials from './Components/Testimonials/Testimaonials'
+import CTA from './Components/CTA/CTA'
+import Footer from './Components/Footer/Footer'
 function App() {
 
   return (
@@ -16,6 +18,8 @@ function App() {
        <Services/>
        <Features/>
        <Testimonials/>
+       <CTA/>
+       <Footer/>
     </>
   )
 }
